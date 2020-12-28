@@ -17,3 +17,8 @@ def make_change(coins, amount):
 print(make_change([2,3,5,10], 15))
 print(make_change([1,2,5], 5))
 print(make_change([1,5], 6))
+
+"""
+Time Comp.: O(m*n), where m is the amount and n is the # of coins
+Space Comp.: O(m*n)
+"""
